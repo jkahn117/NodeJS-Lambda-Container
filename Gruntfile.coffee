@@ -26,5 +26,5 @@ module.exports = (grunt) ->
 
 	# simplify packaging and deployment
 	grunt.registerTask('package', [ 'coffee', 'lambda_package' ])
-	grunt.registerTask('invoke', [ 'coffee', 'lambda_invoke' ])
-	grunt.registerTask('deploy', [ 'package', 'lambda_deploy' ])
+	grunt.registerTask('invoke',  [ 'coffee', 'lambda_invoke' ])
+	grunt.registerTask('deploy',  [ 'package', 'lambda_deploy' ])

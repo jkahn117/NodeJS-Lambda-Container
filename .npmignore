@@ -1,4 +1,7 @@
-event.json
+node_modules/
+npm-debug.log
+dist/
 Gruntfile.coffee
-dist
+src/
 *.iml
+event.json
